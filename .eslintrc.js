@@ -31,12 +31,6 @@ module.exports = {
       { registeredComponentsOnly: true },
     ],
     'vue/no-required-prop-with-default': ['error', { autofix: false }],
-    'vue/no-undef-components': [
-      'error',
-      {
-        ignorePatterns: [],
-      },
-    ],
     'vue/no-unused-properties': ['warn', { groups: ['props'] }],
     'vue/no-unused-refs': 'error',
     'vue/padding-line-between-blocks': ['error', 'always'],
