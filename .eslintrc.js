@@ -18,8 +18,9 @@ module.exports = {
     'eslint:recommended',
     'plugin:prettier/recommended',
     'plugin:nuxt/recommended',
+    'plugin:tailwindcss/recommended',
   ],
-  plugins: ['unused-imports', 'simple-import-sort'],
+  plugins: ['unused-imports', 'tailwindcss', 'simple-import-sort'],
   rules: {
     'vue/no-v-html': 'off',
     'vue/multi-word-component-names': 'off',
@@ -68,5 +69,7 @@ module.exports = {
         groups: [['^\\u0000'], ['^node:'], ['^@?\\w'], ['^'], ['^\\.']],
       },
     ],
+    'tailwindcss/classnames-order': 'warn',
+    'tailwindcss/no-custom-classname': 'off',
   },
 };
