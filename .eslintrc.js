@@ -28,7 +28,7 @@ module.exports = {
     'vue/component-name-in-template-casing': [
       'error',
       'PascalCase',
-      { registeredComponentsOnly: true },
+      { registeredComponentsOnly: false },
     ],
     'vue/no-required-prop-with-default': ['error', { autofix: false }],
     'vue/no-unused-properties': ['warn', { groups: ['props'] }],
