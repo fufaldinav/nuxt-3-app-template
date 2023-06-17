@@ -8,6 +8,14 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     'nuxt-swiper',
     'nuxt-icons',
+    '@vueuse/nuxt',
+    [
+      '@hebilicious/vue-query-nuxt',
+      {
+        autoImports: ['useQuery'],
+        vueQueryPluginOptions: {},
+      },
+    ],
   ],
 
   css: ['~/assets/css/main.scss'],
