@@ -6,6 +6,7 @@
     <span class="text-blue-400 drop-shadow">o Wor</span>
     <span class="text-red-400 drop-shadow">ld!!!</span>
   </h3>
+  <NuxtIcon name="pepe" />
 </template>
 
 <style scoped></style>

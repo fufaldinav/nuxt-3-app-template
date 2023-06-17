@@ -31,6 +31,8 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.11",
+    "nuxt-icons": "^3.2.1",
+    "nuxt-swiper": "^1.1.0",
     "pinia": "^2.1.4"
   }
 }
