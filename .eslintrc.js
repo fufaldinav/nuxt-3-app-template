@@ -14,10 +14,8 @@ module.exports = {
     sourceType: 'module',
   },
   extends: [
-    'plugin:vue/vue3-recommended',
-    'eslint:recommended',
+    '@nuxt/eslint-config',
     'plugin:prettier/recommended',
-    'plugin:nuxt/recommended',
     'plugin:tailwindcss/recommended',
   ],
   plugins: ['unused-imports', 'tailwindcss', 'simple-import-sort'],
