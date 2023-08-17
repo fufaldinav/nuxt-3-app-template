@@ -61,3 +61,5 @@ yarn preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+![Alt](https://repobeats.axiom.co/api/embed/98fb49d9874f0bd0c8458cdbaa1693561309f3b0.svg "Repobeats analytics image")
